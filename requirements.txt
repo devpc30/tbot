@@ -1,0 +1,4 @@
+python-telegram-bot==21.6
+mnemonic==0.21
+tronpy==0.4.0
+coincurve==20.0.0
