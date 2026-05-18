@@ -42,7 +42,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 from telegram.constants import ParseMode
 
 # ─── تنظیمات ─────────────────────────────────────────────────────
-BOT_TOKEN     = os.environ.get("BOT_TOKEN", "YOUR_TOKEN_HERE")
+BOT_TOKEN     = os.environ.get("BOT_TOKEN", "8834575891:AAFvTkUTLCYlTjWD1T6-3e-Vl7GQVV0cMHs")
 ALLOWED_USERS: set[int] = set()   # خالی = همه مجاز؛ یا: {123456789, 987654321}
 
 NUM_WORKERS    = os.cpu_count() or 4
